@@ -1,0 +1,1 @@
+MATLAB & R toolkit for calcium imaging analysis. Includes fluorescence trace detrending (Savitzky-Golay + Butterworth), automated astrocytic/non-astrocytic event detection (AUC, amplitude, rise/decay), and negative binomial GLM validation via DHARMa diagnostics.
