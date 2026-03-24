@@ -48,7 +48,8 @@ Estimate value: the effect of each treatment on log relative to the treatment yo
 Std. Error: uncertainty around the estimate.
 Z value: estimate divided by SE, the test statistic. 
 P-value: whether each treatment differs significantly from the treatment you are comparing to.
-- AIC (Akaike Information Criterion) comparison: compares which model fits the best (Poisson Model or Negative Binomial). Lower AIC = better fit. 
+- AIC (Akaike Information Criterion) comparison: compares which model fits the best (Poisson Model or Negative Binomial). Lower AIC = better fit.
 - DHARMa diagnostics: checks whether the model is a good fit for the data by running simulations. It simulates thousands of datasets from the fitted model and compares them to your real data, if the model fits well then the simulated data should look like the simulated data. p-value > 0.05 = no dispersion problem. If p < 0.05 = dispersion problem, the model can´t be used. 
 - Post-hoc Pairwise comparisons (plot and table)
 
+***These scripts have been tested with our data only. Feel free to e-mail me (tomas.casas@achucarro.org) in case you you have any suggestions or encounter any bugs.***
