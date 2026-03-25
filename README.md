@@ -6,7 +6,7 @@ Please acknowledge these scripts if you use them in your publication. Cite the D
 MATLAB script for fluorescence trace correction. Removes trends using Savitzky-Golay smoothing, high-pass Butterworth filtering & local baseline estimation. Outputs per-ROI figures (raw vs. corrected trace) and a xlsx file with normalized data.
 ### How to use
 1.	Extract data fluorescent data from the software of choice (like Calsee). 
-2.	Copy the fluorescent traces data and paste them in a new xlsx file with the following format: ROI 1: name the columns with the name of the ROIs, see example below.
+2.	Copy the fluorescent traces data and paste them in a new xlsx file with the following format: Row 1: name the columns with the name of the ROIs, see example below.
    
 <img width="886" height="153" alt="image" src="https://github.com/user-attachments/assets/e0415b52-82d6-42c2-a5b0-3afe203ba2bb" />
 
